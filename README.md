@@ -6,5 +6,6 @@
 |98|[ Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Java](./solutions/98.%20Validate%20Binary%20Search%20Tree.java)|0 ms|
 |100|[ Same Tree](https://leetcode.com/problems/same-tree/)|[Java](./solutions/100.%20Same%20Tree.java)|0 ms|
 |101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Java](./solutions/101.%20Symmetric%20Tree.java)|0 ms|
+|110|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Java](./solutions/110.%20Balanced%20Binary%20Tree.java)|0 ms|
 |230|[ Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Java](./solutions/230.%20Kth%20Smallest%20Element%20in%20a%20BST.java)|0 ms|
 |235|[ Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](./solutions/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree.java)|4 ms|
