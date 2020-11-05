@@ -14,18 +14,23 @@
  * }
  */
 class Solution {
-    
-    private boolean flag = true;
     public boolean isBalanced(TreeNode root) {
         
-        if(root == null) return true;
-        sizeOf(root); // it will check the first left sub tree  & right 
-        return flag;
+        return (isBal(root) == -1)? false : true;
+        
     }
     
-    private int sizeOf(TreeNode curr){
+    private int isBal(TreeNode root){
         
-        if(curr == null) return 0;
+        if(root == null) return 0;
         
-        int l = sizeOf(curr.left);
-        int r = sizeOf(curr.right);
+        int lh = isBal(root.left);
+        if(lh == -1) return -1;
+        
+        int rh = isBal(root.right);
+        if(rh == -1) return -1;
+        
+        if(Math.abs(lh - rh) > 1) return -1;
+        
+        return Math.max(lh,rh) + 1;
+    }
